@@ -74,7 +74,9 @@ class TitleNavigationBarStyle {
     this.background = Colors.white,
     this.activeColor = const Color(0xFFa6011d),
     this.spaceBetween = 20.0,
-    this.deactiveColor = const Color(0xFFa6011d),
+    this.deactiveColor = const Color(
+      0xFFa6011d,
+    ),
   });
 
   /// It is Titles style

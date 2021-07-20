@@ -41,7 +41,7 @@ class NavigationBarStyle {
   const NavigationBarStyle({
     this.elevation = 3.0,
     this.background = Colors.white,
-    this.activeColor = Colors.blue,
+    this.activeColor = const Color(0xFF000200),
     this.deactiveColor = Colors.black26,
     this.verticalPadding = 20.0,
     this.position = NavigationPosition.bottom,
@@ -72,9 +72,9 @@ class TitleNavigationBarStyle {
     this.padding = const EdgeInsets.all(20.0),
     this.elevation = 3.0,
     this.background = Colors.white,
-    this.activeColor = Colors.blue,
+    this.activeColor = const Color(0xFF000200),
     this.spaceBetween = 20.0,
-    this.deactiveColor = Colors.black26,
+    this.deactiveColor = const Color(0xFF000200),
   });
 
   /// It is Titles style
@@ -133,7 +133,7 @@ class NavigationBodyStyle {
 
 class NavigationIdentiferStyle {
   const NavigationIdentiferStyle({
-    this.color = Colors.blue,
+    this.color = const Color(0xFF000200),
     this.position = IdentifierPosition.bottomAndLeft,
     this.borderRadius = BorderRadius.zero,
     this.width = 3.0,

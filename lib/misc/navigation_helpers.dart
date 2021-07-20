@@ -41,7 +41,7 @@ class NavigationBarStyle {
   const NavigationBarStyle({
     this.elevation = 3.0,
     this.background = Colors.white,
-    this.activeColor = const Color(0xFF000200),
+    this.activeColor = const Color(0xFFa6011d),
     this.deactiveColor = Colors.black26,
     this.verticalPadding = 20.0,
     this.position = NavigationPosition.bottom,
@@ -72,7 +72,7 @@ class TitleNavigationBarStyle {
     this.padding = const EdgeInsets.all(20.0),
     this.elevation = 3.0,
     this.background = Colors.white,
-    this.activeColor = const Color(0xFF000200),
+    this.activeColor = const Color(0xFFa6011d),
     this.spaceBetween = 20.0,
     this.deactiveColor = const Color(0xFF000200),
   });

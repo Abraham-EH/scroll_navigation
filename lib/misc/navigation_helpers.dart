@@ -74,7 +74,7 @@ class TitleNavigationBarStyle {
     this.background = Colors.white,
     this.activeColor = const Color(0xFFa6011d),
     this.spaceBetween = 20.0,
-    this.deactiveColor = const Color(0xFF000200),
+    this.deactiveColor = const Color(0xFFa6011d),
   });
 
   /// It is Titles style
@@ -133,7 +133,7 @@ class NavigationBodyStyle {
 
 class NavigationIdentiferStyle {
   const NavigationIdentiferStyle({
-    this.color = const Color(0xFF000200),
+    this.color = const Color(0xFFa6011d),
     this.position = IdentifierPosition.bottomAndLeft,
     this.borderRadius = BorderRadius.zero,
     this.width = 3.0,
